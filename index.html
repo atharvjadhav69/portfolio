@@ -68,16 +68,14 @@
    </section>
   <section class="contact" align="center">
   <h2>Contact</h2>
-  <form>
-    <input type="text" name="first" placeholder="First Name" autocomplete="off" required><br><br>
-    <input type="text" name="last" placeholder="Last Name" autocomplete="off" required><br><br>
-    <input type="email" name="email" placeholder="Email Address" autocomplete="off" required><br><br><br>
+  <form action="/submit" method="post">
+    <input type="text" name="namequery" placeholder="Name"><br>
+    <input type="number" name="Phone number" placeholder="Phone number"><br>
+    <input type="email" name="email" placeholder="Email " autocomplete="off" required><br>
+    <input type="Address" name="Address" placeholder="Address"><br><br>
     <textarea rows="5" cols="80" name="message" placeholder="Enter text" autocomplete="off" required></textarea><br><br>
     <button type="submit">Submit</button>
   </form>
-</section>
-
-
 </section>
    </body>
 </html>

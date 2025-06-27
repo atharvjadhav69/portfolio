@@ -148,7 +148,6 @@ button:hover {
   opacity: 80%;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -177,7 +176,6 @@ footer p {
   text-decoration: none;
 }
 
-/* Responsive Styling */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -206,6 +204,7 @@ footer p {
 
   .card {
     width: 90%;
+
   }
 
   .contact textarea {
